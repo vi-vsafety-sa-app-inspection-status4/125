@@ -1,3 +1,6 @@
 body {
    font-family: "JF FLAT"
 }
+html, body {
+    overflow: hidden;
+}
