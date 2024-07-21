@@ -1,6 +1,14 @@
-body {
-   font-family: "JF FLAT"
+@font-face {
+    font-family: 'JF FLAT';
+    src: url('JF-Flat-Regular') format('woff2'),
+         url('JF-Flat-Regular') format('woff');
 }
+body {
+    font-family: 'JF FLAT', Arial, sans-serif;
+}
+
+
+
 html, body {
     overflow: hidden;
 }
